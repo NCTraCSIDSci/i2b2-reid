@@ -16,4 +16,4 @@ select distinct
 from
   patient_table
 where
-  patient.pat_id = ?
+  patient.pat_id = ?    -- MUST HAVE THIS BIND VARIABLE, THIS WILL BE POPULATED WITH THE PATIENT IDENTIFIER RETURNED FROM THE I2B2 QUERY
